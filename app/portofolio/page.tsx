@@ -1,18 +1,17 @@
-'use client'
+// 'use client'
 import React, { useEffect} from 'react'
 import Layout from '../components/Layout';
 import Image from 'next/image';
 import PortofolioData from '../data/portofolio.json';
-import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 function Portofolio() {
-  useEffect(() => {
-    setTimeout(() => {
-      console.log('Running AOS.init()');
-      AOS.init();
-    }, 100); // Penundaan 100 milidetik
-  }, []);
+  // useEffect(() => {
+  //   setTimeout(() => {
+  //     console.log('Running AOS.init()');
+  //     AOS.init();
+  //   }, 100); // Penundaan 100 milidetik
+  // }, []);
   
 
   return (
@@ -21,14 +20,15 @@ function Portofolio() {
         {PortofolioData.map((item,index) => {
           return (
             <div 
-            data-aos="flip-left"
-     data-aos-easing="ease-out-cubic"
-     data-aos-duration="2000"
+            
             
             key={index} className="max-w-sm w-full md:max-w-[300px] m-2 cursor-pointer flex flex-col projects-center md:projects-start md:justify-center" style={{ opacity: 1, transform: 'none' }}>
             <a href="https://publiccode-phi.vercel.app/" target="_blank" className="w-full relative rounded-xl border-gray-700 dark:border-gray-400 border p-2 cursor-not-allowed  hover:border-gray-400 will-change-projectCard">
               <div style={{ transform: 'none' }}>
               <Image
+              data-aos-delay="300"
+              data-aos="zoom-in-up"
+              data-aos-duration={`${index+4}00`}
               className='w-full md:w-[100]'
                         src="/portofolio1.jpeg" // Sesuaikan dengan path relatif gambar di dalam folder `public`
                         alt="Avatar"

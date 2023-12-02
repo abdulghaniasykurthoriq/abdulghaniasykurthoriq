@@ -15,7 +15,7 @@ export default function Home() {
             />
           </div>
         </div>
-        <div className="flex flex-col md:ml-8 justify-center">
+        <div data-aos="fade-up" className="flex flex-col md:ml-8 justify-center">
           <h1 className="text-xl md:text-3xl text-blueGray dark:text-white mt-8 md:mt-0 text-center ml-6 mr-6 md:ml-0 md:mr-0 md:text-start font-regular mb-4">
             Hello, I&apos;m Agat
           </h1>

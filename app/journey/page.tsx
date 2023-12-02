@@ -19,7 +19,8 @@ function Journey() {
             <div className="bg-blue-400 h-100 w-1 relative ml-4 mr-4">
               <div className="bg-blue-400 h-4 w-4 absolute rounded-xl" style={{ top: "-6px", left: "-6px" }}></div>
             </div>
-            <div style={{ width: "50%" }}>
+              
+            <div data-aos-delay={`${index+3}00`}  data-aos="fade-left" style={{ width: "50%" }}>
               <a target="_blank" rel="noopener noreferrer" className="text-blue" href="https://www.dagangan.com/">{item.companyName}</a>
               <p className="text-xs text-blueGray dark:text-white mb-2">{item.job}</p>
               <ul className="mb-4 list-disc ml-4 text-blue">
@@ -39,6 +40,7 @@ function Journey() {
               );
             })
           }
+          
   </div>
 </div>
 
