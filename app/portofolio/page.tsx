@@ -37,7 +37,6 @@ function Portofolio() {
                         priority={false}
                         // layout="responsive"
                       />
-                {/* <img className="w-full rounded-md" src="/projects/p7.png" width="150" height="70" alt="image projek" /> */}
               </div>
             </a>
             <div className="w-full mt-5 ">
@@ -46,11 +45,11 @@ function Portofolio() {
                   <h3 className="text-lg font-bold cursor-not-allowed">Codepublic</h3>
                 </a>
                 <div className="space-x-2 flex items-center cursor-not-allowed">
-                  <img alt="Link Icon" srcSet="/icons/external-link.svg 1x, /icons/external-link.svg 2x" src="/icons/external-link.svg" width="16" height="16" decoding="async" data-nimg="1" className="cursor-not-allowed" loading="lazy" style={{ color: 'transparent' }} />
+                  {/* <img alt="Link Icon" srcSet="/icons/external-link.svg 1x, /icons/external-link.svg 2x" src="/icons/external-link.svg" width="16" height="16" decoding="async" data-nimg="1" className="cursor-not-allowed" loading="lazy" style={{ color: 'transparent' }} />
                   <a href="/" target="_blank" rel="noreferrer" className="cursor-not-allowed">
                   
                     <img alt="Github Icon" srcSet="/icons/github.svg 1x, /icons/github.svg 2x" src="/next.svg" width="16" height="16" decoding="async" data-nimg="1" loading="lazy" style={{ color: 'transparent' }} />
-                  </a>
+                  </a> */}
                 </div>
               </div>
               <p className="text-fun-gray text-left text-sm">codepublic is a website that provides website creation services</p>
