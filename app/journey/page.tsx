@@ -14,7 +14,7 @@ function Journey() {
               return (
                 <div key={index} className="flex" style={{ width: "90%", minHeight: "6rem" }}>
             <div data-aos-delay={`${index+1}00`}  data-aos="fade-right" style={{ width: "40%" }}>
-              <p className="text-right text-blueGray dark:text-white text-sm">{item.start} - {item.end}</p>
+              <p className="text-right text-blueGray text-xs dark:text-white ">{item.start} - {item.end}</p>
             </div>
             <div className="bg-blue-400 h-100 w-1 relative ml-4 mr-4">
               <div className="bg-blue-400 h-4 w-4 absolute rounded-xl" style={{ top: "-6px", left: "-6px" }}></div>
