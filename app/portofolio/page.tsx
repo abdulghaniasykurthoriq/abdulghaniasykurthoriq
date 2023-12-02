@@ -1,4 +1,4 @@
-// 'use client'
+'use client';
 import React, { useEffect} from 'react'
 import Layout from '../components/Layout';
 import Image from 'next/image';
@@ -28,7 +28,7 @@ function Portofolio() {
               <Image
               data-aos-delay="300"
               data-aos="zoom-in-up"
-              data-aos-duration={`${index+4}00`}
+              data-aos-duration={`${index+2}00`}
               className='w-full md:w-[100]'
                         src="/portofolio1.jpeg" // Sesuaikan dengan path relatif gambar di dalam folder `public`
                         alt="Avatar"
