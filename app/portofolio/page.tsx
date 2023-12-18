@@ -23,7 +23,7 @@ function Portofolio() {
             
             
             key={index} className="max-w-sm w-full md:max-w-[300px] m-2 cursor-pointer flex flex-col projects-center md:projects-start md:justify-center" style={{ opacity: 1, transform: 'none' }}>
-            <a href="https://publiccode-phi.vercel.app/" target="_blank" className="w-full relative rounded-xl border-gray-700 dark:border-gray-400 border p-2 cursor-not-allowed  hover:border-gray-400 will-change-projectCard">
+            <a href="#" target="_blank" className="w-full relative rounded-xl border-gray-700 dark:border-gray-400 border p-2 cursor-not-allowed  hover:border-gray-400 will-change-projectCard">
               <div style={{ transform: 'none' }}>
               <Image
               data-aos-delay="300"
