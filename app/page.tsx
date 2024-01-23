@@ -54,7 +54,7 @@ export default function Home() {
         <div className="avatar">
           <div className="w-28 rounded-full ring ring-base-300 ring-offset-base-100 ring-offset-2">
             <Image
-              src="/avatar.jpeg"
+              src="/agatganteng.jpeg"
               alt="Avatar"
               width={500}
               height={500}
@@ -68,6 +68,48 @@ export default function Home() {
           <p className="text-base md:text-xl text-blueGray dark:text-white flex font-regular place-self-center md:place-self-start">
             <span className="text-blue">Software</span>&nbsp;Engineer
           </p>
+          <div className="flex mt-3">
+            <a className="mx-1" href="" >
+              <Image
+                src="/icon/linkedin.png"
+                alt="Avatar"
+                width={25}
+                height={25}
+              />
+            </a>
+            <a className="mx-1" href="">
+              <Image
+                  src="/icon/github.png"
+                  alt="Avatar"
+                  width={25}
+                  height={25}
+              />
+            </a>
+            <a className="mx-1" href="">
+              <Image
+                  src="/icon/gmail.png"
+                  alt="Avatar"
+                  width={25}
+                  height={25}
+              />
+            </a>
+            <a className="mx-1" href="">
+              <Image
+                  src="/icon/tiktok.png"
+                  alt="Avatar"
+                  width={25}
+                  height={25}
+              />
+            </a>
+            <a className="mx-1" href="">
+              <Image
+                  src="/icon/youtube.png"
+                  alt="Avatar"
+                  width={25}
+                  height={25}
+              />
+            </a>
+          </div>
         </div>
       </div>
     </Layout>

@@ -41,14 +41,14 @@ function Portofolio() {
             </a>
             <div className="w-full mt-5 ">
               <div className="flex projects-center justify-between">
-                <a href="https://publiccode-phi.vercel.app/" target="_blank">
-                  <h3 className="text-lg font-bold cursor-not-allowed">Codepublic</h3>
+                <a href="#" target="_blank">
+                  <h3 className="text-lg font-bold cursor-not-allowed">Portofolio</h3>
                 </a>
                 <div className="space-x-2 flex items-center cursor-not-allowed">
                   
                 </div>
               </div>
-              <p className="text-fun-gray text-left text-sm">codepublic is a website that provides website creation services</p>
+              <p className="text-fun-gray text-left text-sm">Portofolio is a website that provides website creation services</p>
               <ul className="flex flex-wrap items-center mt-2 -ml-2 list-none">
                 <li><div className="m-1 rounded-lg text-sm bg-gray-400 text-white py-1 px-2 cursor-not-allowed hover:opacity-75">NextJS</div></li>
                 <li><div className="m-1 rounded-lg text-sm bg-gray-400 text-white py-1 px-2 cursor-not-allowed hover:opacity-75">TailwindCSS</div></li>
