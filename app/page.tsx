@@ -69,7 +69,7 @@ export default function Home() {
             <span className="text-blue">Software</span>&nbsp;Engineer
           </p>
           <div className="flex mt-3">
-            <a className="mx-1" href="" >
+            <a className="mx-1" href="https://www.linkedin.com/in/abdul-ghani-asykur-thoriq-5a74241a8?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
               <Image
                 src="/icon/linkedin.png"
                 alt="Avatar"
@@ -77,7 +77,7 @@ export default function Home() {
                 height={25}
               />
             </a>
-            <a className="mx-1" href="">
+            <a className="mx-1" href="https://github.com/abdulghaniasykurthoriq" target="_blank">
               <Image
                   src="/icon/github.png"
                   alt="Avatar"
@@ -85,7 +85,7 @@ export default function Home() {
                   height={25}
               />
             </a>
-            <a className="mx-1" href="">
+            <a className="mx-1" href="mailto:agatinfo17@gmail.com" target="_blank">
               <Image
                   src="/icon/gmail.png"
                   alt="Avatar"
@@ -93,22 +93,22 @@ export default function Home() {
                   height={25}
               />
             </a>
-            <a className="mx-1" href="">
+            {/* <a className="mx-1" href="https://www.tiktok.com/@khilapjir?_t=8jGOkpuHtKx&_r=1" target="_blank">
               <Image
                   src="/icon/tiktok.png"
                   alt="Avatar"
                   width={25}
                   height={25}
               />
-            </a>
-            <a className="mx-1" href="">
+            </a> */}
+            {/* <a className="mx-1" href="https://youtube.com/@agat1?si=FtezbMB7os9IOtiN" target="_blank">
               <Image
                   src="/icon/youtube.png"
                   alt="Avatar"
                   width={25}
                   height={25}
               />
-            </a>
+            </a> */}
           </div>
         </div>
       </div>
