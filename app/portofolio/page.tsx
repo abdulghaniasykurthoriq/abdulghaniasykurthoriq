@@ -29,7 +29,7 @@ function Portofolio() {
               style={{ opacity: 1, transform: "none" }}
             >
               <a
-                href="#"
+                href={item.repo}
                 target="_blank"
                 className="w-full relative rounded-xl border-gray-700 dark:border-gray-400 border p-2 cursor-not-allowed  hover:border-gray-400 will-change-projectCard"
               >

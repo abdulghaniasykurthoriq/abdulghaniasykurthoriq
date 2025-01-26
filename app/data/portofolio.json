@@ -1,5 +1,37 @@
 [
   {
+    "companyName": "MyKanban",
+    "job": "Fullstack Developer",
+    "start": "Nov 2024",
+    "end": "Dec 2024",
+    "desc": "MyKanban is a project inspired by task management systems like Trello.",
+    "jobDetail": [
+      {
+        "item": "Develop Web application using Laravel"
+      }
+    ],
+    "images": [
+      {
+        "url": "/portofolio/mykanban/trello.gif"
+      },
+      {
+        "url": "/portofolio/mykanban/image.png"
+      }
+    ],
+    "stack": [
+      {
+        "item": "Laravel"
+      },
+      {
+        "item": "Inertia"
+      },
+      {
+        "item": "React"
+      }
+    ],
+    "repo": "https://github.com/abdulghaniasykurthoriq/my-kanban.git"
+  },
+  {
     "companyName": "Simpeg Politeknik Negeri Indramayu",
     "job": "Fullstack Developer",
     "start": "Oct 2023",
@@ -40,7 +72,8 @@
       {
         "item": "MySql"
       }
-    ]
+    ],
+    "repo": "https://gitlab.com/abdulghaniasykurthoriq/sim-pegawai.git"
   },
   {
     "companyName": "KeK",
@@ -71,7 +104,8 @@
       {
         "item": "MySql"
       }
-    ]
+    ],
+    "repo": "https://github.com/abdulghaniasykurthoriq/kek_apps.git"
   },
   {
     "companyName": "e-Masjid",
@@ -106,14 +140,15 @@
     ],
     "stack": [
       {
-        "item": "NextJS"
+        "item": "Laravel"
       },
       {
-        "item": "TailwindCSS"
+        "item": "Inertia"
       },
       {
-        "item": "Swiperjs"
+        "item": "React"
       }
-    ]
+    ],
+    "repo": "https://github.com/abdulghaniasykurthoriq/masjid-polindra.git"
   }
 ]
