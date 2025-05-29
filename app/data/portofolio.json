@@ -1,5 +1,38 @@
 [
   {
+    "companyName": "MyCoffee",
+    "job": "Frontend Developer",
+    "start": "May 2025",
+    "end": "May 2025",
+    "desc": "MyCoffe is a basic landing page designed for placing coffee orders.",
+
+    "jobDetail": [
+      {
+        "item": "Develop Web application using html, css, and javascript"
+      }
+    ],
+    "images": [
+      {
+        "url": "/portofolio/mycoffee/landing.png"
+      },
+      {
+        "url": "/portofolio/mycoffee/image.png"
+      }
+    ],
+    "stack": [
+      {
+        "item": "Html"
+      },
+      {
+        "item": "CSS"
+      },
+      {
+        "item": "Javascript"
+      }
+    ],
+    "repo": "https://github.com/abdulghaniasykurthoriq/coffee-shop.git"
+  },
+  {
     "companyName": "MyKanban",
     "job": "Fullstack Developer",
     "start": "Nov 2024",
