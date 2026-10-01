@@ -1,14 +1,12 @@
 "use client";
-import React, { useEffect } from "react";
+import React from "react";
 import Layout from "../components/Layout";
 import Image from "next/image";
 import PortofolioData from "../data/portofolio.json";
-import "aos/dist/aos.css";
 import "swiper/css";
-import "swiper/css/navigation";
 import "swiper/css/pagination";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Pagination } from "swiper/modules";
+import { Pagination } from "swiper/modules";
 
 function Portofolio() {
   // useEffect(() => {
@@ -36,7 +34,7 @@ function Portofolio() {
                 >
                   <div style={{ transform: "none" }}>
                     <Swiper
-                      modules={[Navigation, Pagination]}
+                      modules={[Pagination]}
                       // navigation
                       pagination={{ clickable: true }}
                       spaceBetween={50}

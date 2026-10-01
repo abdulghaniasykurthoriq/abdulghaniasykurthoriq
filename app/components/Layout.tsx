@@ -3,6 +3,7 @@ import React, { useEffect } from 'react';
 import dynamic from 'next/dynamic';
 import Navbar from './navbar';
 import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Particle = dynamic(() => import('./Particle'), { ssr: false });
 

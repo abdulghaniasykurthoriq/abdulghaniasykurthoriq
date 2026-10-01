@@ -3,9 +3,11 @@ import { useEffect, useState } from "react";
 import Image from "next/image";
 import Layout from "./components/Layout";
 import dynamic from "next/dynamic";
-import animationData from "../public/animation/developer.json";
 
-const Lottie = dynamic(() => import("lottie-react"), { ssr: false });
+const Splash = dynamic(() => import("./components/Splash"), {
+  ssr: false,
+  loading: () => <div className="bg-white w-screen h-screen" />,
+});
 
 export default function Home() {
   const [mounted, setMounted] = useState(process.env.NODE_ENV === "development");
@@ -29,22 +31,7 @@ export default function Home() {
   }, []);
 
   if (!mounted) {
-    return (
-      <div className="flex justify-center items-center bg-white w-screen h-screen">
-        <div>
-          <Lottie
-            animationData={animationData}
-            loop={true}
-            autoplay={true}
-            style={{ width: 200, height: 200 }}
-          />
-          <h1 data-aos="fade-up" data-aos-duration="3000">
-            don&apos;t worry
-            <br /> i&apos;m here to be your friend
-          </h1>
-        </div>
-      </div>
-    );
+    return <Splash />;
   }
 
   return (
@@ -56,7 +43,7 @@ export default function Home() {
       >
         <div className="avatar">
           <div className="w-28 rounded-full ring ring-base-300 ring-offset-base-100 ring-offset-2">
-            <Image src="/agat.jpeg" alt="Avatar" width={500} height={500} />
+            <Image src="/agat.jpeg" alt="Avatar" width={500} height={500} sizes="112px" priority />
           </div>
         </div>
         <div
