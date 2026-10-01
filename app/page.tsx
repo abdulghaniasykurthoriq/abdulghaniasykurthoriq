@@ -2,22 +2,26 @@
 import { useEffect, useState } from "react";
 import Image from "next/image";
 import Layout from "./components/Layout";
-import Lottie from "lottie-react";
+import dynamic from "next/dynamic";
 import animationData from "../public/animation/developer.json";
 
+const Lottie = dynamic(() => import("lottie-react"), { ssr: false });
+
 export default function Home() {
-  const [mounted, setMounted] = useState(false);
+  const [mounted, setMounted] = useState(process.env.NODE_ENV === "development");
 
   useEffect(() => {
+    if (process.env.NODE_ENV === "development") return;
     // Cek apakah pengguna sudah melihat splash screen
     const hasSeenSplash = sessionStorage.getItem("hasSeenSplash");
 
     if (!hasSeenSplash) {
       // Jika belum melihat splash screen, tampilkan splash screen
-      setTimeout(() => {
+      const timer = setTimeout(() => {
         setMounted(true);
         sessionStorage.setItem("hasSeenSplash", "true");
       }, 4000); // Ganti angka ini dengan durasi splash screen yang diinginkan (dalam milidetik)
+      return () => clearTimeout(timer);
     } else {
       // Jika sudah melihat splash screen, langsung set mounted ke true
       setMounted(true);

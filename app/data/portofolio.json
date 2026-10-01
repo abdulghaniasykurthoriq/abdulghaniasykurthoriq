@@ -1,5 +1,58 @@
 [
   {
+    "companyName": "Task Management Dashboard",
+    "job": "Frontend Developer",
+    "start": "Oct 2026",
+    "end": "Oct 2026",
+    "desc": "A modern task management dashboard built with Next.js for organizing, tracking, and managing daily tasks through a clean and responsive interface.",
+    "jobDetail": [
+      {
+        "item": "Developed a responsive task management dashboard using Next.js"
+      },
+      {
+        "item": "Implemented CRUD functionality for creating, updating, and deleting tasks"
+      },
+      {
+        "item": "Implemented localStorage to persist task data across browser sessions"
+      },
+      {
+        "item": "Built reusable UI components for better maintainability and scalability"
+      },
+      {
+        "item": "Implemented task filtering and status management to improve task organization"
+      }
+    ],
+    "images": [
+      {
+        "url": "/portofolio/orbit/dashboard.jpeg"
+      },
+      {
+        "url": "/portofolio/orbit/project.jpeg"
+      },
+      {
+        "url": "/portofolio/orbit/board.jpeg"
+      }
+    ],
+    "stack": [
+      {
+        "item": "Next.js"
+      },
+      {
+        "item": "React"
+      },
+      {
+        "item": "TypeScript"
+      },
+      {
+        "item": "Tailwind CSS"
+      },
+      {
+        "item": "LocalStorage"
+      }
+    ],
+    "repo": "https://orbit-seven-xi.vercel.app/"
+  },
+  {
     "companyName": "MyCoffee",
     "job": "Frontend Developer",
     "start": "May 2025",

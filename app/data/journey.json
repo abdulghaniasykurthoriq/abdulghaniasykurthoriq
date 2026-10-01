@@ -1,18 +1,73 @@
 [
   {
-    "companyName": "ERP Project",
-    "job": "Intern Backend Developer",
-    "start": "July 2024",
+  "companyName": "PT Kereta Api Indonesia (Persero)",
+  "job": "Software Developer",
+  "start": "Oct 2025",
+  "end": "Sep 2026",
+  "jobDetail": [
+    {
+      "item": "Developed and maintained backend services for Interhub and ITMS using .NET and PostgreSQL"
+    },
+    {
+      "item": "Designed database structures and developed RESTful APIs to support application requirements"
+    },
+    {
+      "item": "Optimized database queries and API performance for Interhub, a platform serving more than 5,000 users"
+    },
+    {
+      "item": "Developed and maintained fullstack applications including PPID and Porsenika using PHP, Laravel, and MySQL"
+    },
+    {
+      "item": "Implemented unit testing and used SonarQube to maintain code quality and reliability"
+    },
+    {
+      "item": "Troubleshot bugs and implemented new features based on business requirements"
+    }
+    ]
+  },
+  {
+    "companyName": "PT Cikamula Enterprisindo",
+    "job": "Fullstack Developer",
+    "start": "Jan 2025",
+    "end": "Aug 2025",
+    "jobDetail": [
+      {
+        "item": "Developed Elsikomang Klak Klik using Laravel and Flutter"
+      },
+      {
+        "item": "Built and integrated transaction flows using Midtrans API for secure online payments"
+      },
+      {
+        "item": "Implemented user authentication using Google OAuth to improve login security and user experience"
+      },
+      {
+        "item": "Developed a web-based Content Management System (CMS) using Laravel for efficient content management"
+      },
+      {
+        "item": "Designed, implemented, and maintained RESTful APIs to support both web and mobile applications"
+      },
+      {
+        "item": "Integrated Laravel backend APIs with Flutter mobile applications to ensure seamless data synchronization"
+      }
+    ]
+  },
+  {
+    "companyName": "3PM Solutions",
+    "job": "Backend Developer Intern",
+    "start": "Jul 2024",
     "end": "Dec 2024",
     "jobDetail": [
       {
-        "item": "Developed web API applications using ASP.NET"
+        "item": "Developed and maintained RESTful APIs for an ERP system using ASP.NET"
       },
       {
-        "item": "Created documentation using Swagger"
+        "item": "Implemented backend business logic and integrated application features with the database"
       },
       {
-        "item": "Automated email sending for user registration"
+        "item": "Implemented automated email notifications for user registration and account-related processes"
+      },
+      {
+        "item": "Tested and debugged API endpoints to ensure reliable application functionality"
       }
     ]
   },

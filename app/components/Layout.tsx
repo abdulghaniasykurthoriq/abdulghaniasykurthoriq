@@ -1,9 +1,10 @@
 'use client'
-import React, { ReactNode, useEffect } from 'react';
+import React, { useEffect } from 'react';
+import dynamic from 'next/dynamic';
 import Navbar from './navbar';
-import Particle from './Particle';
 import AOS from 'aos';
 
+const Particle = dynamic(() => import('./Particle'), { ssr: false });
 
 export default function Layout({
   children,
