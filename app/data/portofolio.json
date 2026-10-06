@@ -1,5 +1,55 @@
 [
   {
+    "companyName": "Food Ordering App",
+    "job": "Frontend Developer",
+    "start": "Oct 2026",
+    "end": "Oct 2026",
+    "desc": "A responsive food ordering web application built with React and Tailwind CSS, featuring product management, category filtering, search, shopping cart functionality, and persistent local data.",
+    "jobDetail": [
+      {
+        "item": "Developed a responsive food ordering interface using React and Tailwind CSS"
+      },
+      {
+        "item": "Implemented CRUD functionality for creating, updating, and deleting food products"
+      },
+      {
+        "item": "Built an interactive shopping cart with quantity controls, item removal, and automatic total calculation"
+      },
+      {
+        "item": "Implemented product search and category filtering for easier menu navigation"
+      },
+      {
+        "item": "Used localStorage to persist product and shopping cart data across browser sessions"
+      },
+      {
+        "item": "Built reusable React components and a responsive mobile cart drawer for desktop and mobile layouts"
+      }
+    ],
+    "images": [
+      {
+        "url": "/portofolio/food-app/dashboard.png"
+      }
+    ],
+    "stack": [
+      {
+        "item": "React"
+      },
+      {
+        "item": "JavaScript"
+      },
+      {
+        "item": "Tailwind CSS"
+      },
+      {
+        "item": "Vite"
+      },
+      {
+        "item": "LocalStorage"
+      }
+    ],
+    "repo": "https://food-order-three-snowy.vercel.app/"
+  },
+  {
     "companyName": "Task Management Dashboard",
     "job": "Frontend Developer",
     "start": "Oct 2026",
